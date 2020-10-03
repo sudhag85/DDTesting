@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ecommerce test suite">
+	<listeners>
+		<listener class-name="utility.Reporting" />
+	</listeners>
+	<test name="Ecommerce tests">
+		<classes>
+			<class name="testCases.TC001_Verify_MobileSorting"/>
+			<class name="testCases.TC002_Verify_that_cost_of_product"/>
+			<class name="testCases.TC003_Error_Verification"/>
+			<class name="testCases.TC004_Handling_Pop_ups"/>
+			<class name="testCases.TC005_Account_Creation"/>
+			<class name="testCases.TC006_Purchase_Product"/>
+			<class name="testCases.TC007_Save_Order_as_pdf"/>
+			<class name="testCases.TC008_ReOrder_Product"/>
+			<class name="testCases.TC009_Discount_Coupon"/>
+			<class name="testCases.TC010_Export_All_Orders"/>
+		</classes>
+	</test>
+</suite>

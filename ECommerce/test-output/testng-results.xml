@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-09T02:16:17 SGT" name="Default suite" finished-at="2020-05-09T02:18:19 SGT" duration-ms="121756">
+    <groups>
+    </groups>
+    <test started-at="2020-05-09T02:16:17 SGT" name="Default test" finished-at="2020-05-09T02:18:19 SGT" duration-ms="121756">
+      <class name="testCases.TC010_Export_All_Orders">
+        <test-method signature="exportOrders()[pri:1, instance:testCases.TC010_Export_All_Orders@671a5887]" started-at="2020-05-09T02:16:17 SGT" name="exportOrders" finished-at="2020-05-09T02:17:00 SGT" duration-ms="43415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportOrders -->
+        <test-method signature="readFile()[pri:2, instance:testCases.TC010_Export_All_Orders@671a5887]" started-at="2020-05-09T02:17:00 SGT" name="readFile" finished-at="2020-05-09T02:18:19 SGT" duration-ms="78260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFile -->
+      </class> <!-- testCases.TC010_Export_All_Orders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
